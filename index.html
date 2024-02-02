@@ -21,11 +21,6 @@
         return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
     }
     if (isMobileDevice()) {
-        // var currentUrl = window.location.href;
-
-        // // Construct the new URL
-        // var newUrl = "tellmee://" + currentUrl.substring(currentUrl.indexOf('//') + 2);
-
         // // Navigate to the new URL
         window.location.href = "tellmee://tellmee.app/?id=8140d5cf-4718-4dcb-aa66-1034ef313b2d";
     }
